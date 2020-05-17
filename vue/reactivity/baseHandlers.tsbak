@@ -1,7 +1,7 @@
 import { reactive, readonly, toRaw, ReactiveFlags } from './reactive.ts'
 import { TrackOpTypes, TriggerOpTypes } from './operations.ts'
 import { track, trigger, ITERATE_KEY } from './effect.ts'
-import { isObject, hasOwn, isSymbol, hasChanged, isArray } from 'https://raw.githubusercontent.com/lospringliu/deno/master/vue/shared/index.tx'
+import { isObject, hasOwn, isSymbol, hasChanged, isArray } from './https://raw.githubusercontent.com/lospringliu/deno/master/vue/shared/index.tx'
 import { isRef } from './ref.ts'
 
 const builtInSymbols = new Set(

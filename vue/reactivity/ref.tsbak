@@ -1,6 +1,6 @@
 import { track, trigger } from './effect.ts'
 import { TrackOpTypes, TriggerOpTypes } from './operations.ts'
-import { isObject, hasChanged } from 'https://raw.githubusercontent.com/lospringliu/deno/master/vue/shared/index.tx'
+import { isObject, hasChanged } from './https://raw.githubusercontent.com/lospringliu/deno/master/vue/shared/index.tx'
 import { reactive, isProxy, toRaw } from './reactive.ts'
 import { ComputedRef } from './computed.ts'
 import { CollectionTypes } from './collectionHandlers.ts'
