@@ -1,6 +1,6 @@
 // deno run https://raw.githubusercontent.com/lospringliu/deno/master/examples/vue-reactivity.ts
 
-import * as reactivity from "./vue/reactivity/index.ts"
+import * as reactivity from "../vue/reactivity/index.ts"
 
 let total
 const price = reactivity.ref(10)
