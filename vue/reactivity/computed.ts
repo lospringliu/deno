@@ -1,7 +1,7 @@
 import { effect, ReactiveEffect, trigger, track } from './effect.ts'
 import { TriggerOpTypes, TrackOpTypes } from './operations.ts'
 import { Ref } from './ref.ts'
-import { isFunction, NOOP } from 'https://raw.githubusercontent.com/lospringliu/deno/master/vue/shared/index.tx'
+import { isFunction, NOOP } from 'https://raw.githubusercontent.com/lospringliu/deno/master/vue/shared/index.ts'
 
 export interface ComputedRef<T = any> extends WritableComputedRef<T> {
   readonly value: T

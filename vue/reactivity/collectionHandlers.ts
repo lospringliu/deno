@@ -7,7 +7,7 @@ import {
   hasOwn,
   hasChanged,
   toRawType
-} from 'https://raw.githubusercontent.com/lospringliu/deno/master/vue/shared/index.tx'
+} from 'https://raw.githubusercontent.com/lospringliu/deno/master/vue/shared/index.ts'
 
 export type CollectionTypes = IterableCollections | WeakCollections
 
