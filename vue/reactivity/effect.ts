@@ -1,5 +1,5 @@
 import { TrackOpTypes, TriggerOpTypes } from './operations.ts'
-import { EMPTY_OBJ, isArray } from 'https://raw.githubusercontent.com/lospringliu/deno/master/vue/shared/index.ts'
+import { EMPTY_OBJ, isArray } from './shared/index.ts'
 
 // The main WeakMap that stores {target -> key -> dep} connections.
 // Conceptually, it's easier to think of a dependency as a Dep class

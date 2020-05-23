@@ -1,4 +1,4 @@
-import { isObject, toRawType, def, hasOwn } from 'https://raw.githubusercontent.com/lospringliu/deno/master/vue/shared/index.ts'
+import { isObject, toRawType, def, hasOwn } from './shared/index.ts'
 import {
   mutableHandlers,
   readonlyHandlers,
@@ -10,7 +10,7 @@ import {
   readonlyCollectionHandlers
 } from './collectionHandlers.ts'
 import { UnwrapRef, Ref } from './ref.ts'
-import { makeMap } from 'https://raw.githubusercontent.com/lospringliu/deno/master/vue/shared/index.ts'
+import { makeMap } from './shared/index.ts'
 
 export const enum ReactiveFlags {
   skip = '__v_skip',
